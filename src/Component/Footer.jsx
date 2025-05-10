@@ -1,36 +1,47 @@
-import React from "react";
-import { MdOutlineEmail } from "react-icons/md";
-import { CiLinkedin } from "react-icons/ci";
-import { FaGithub } from "react-icons/fa";
+import { Mail, Linkedin, Github } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
-    <div
-      id="Footer"
-      className="flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center"
-    >
-      <div>
-        <h1 className="text-2xl md:text-6xl font-bold">Contact</h1>
-        <h3 className="text-sm md:text-2xl font-normal">
-          Feel Free To reach out!
-        </h3>
-      </div>
+    <footer id="contact" className="bg-gray-800 text-white py-12 px-4">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
 
-      <ul className="text-sm md:text-xl">
-        <li className="flex gap-1 items-center">
-          <MdOutlineEmail size={20} />
-          Karthikthokala23@gmail.com
-        </li>
-        <li className="flex gap-1 items-center">
-          <CiLinkedin />
-          linkdlin.com/Karthik Thokala
-        </li>
-        <li className="flex gap-1 items-center">
-          <FaGithub />
-          github.com/Karthik_tinku
-        </li>
-      </ul>
-    </div>
+        <div className="space-y-4">
+          <div className="flex items-center space-x-4">
+            <Mail className="text-blue-400" />
+            <a
+              href="mailto:Karthikthokala23@gmail.com"
+              className="hover:underline text-blue-300"
+            >
+              Karthikthokala23@gmail.com
+            </a>
+          </div>
+          <div className="flex items-center space-x-4">
+            <Linkedin className="text-blue-400" />
+            <a
+              href="https://www.linkedin.com/in/karthik-thokala/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline text-blue-300"
+            >
+              Karthik Thokala
+            </a>
+          </div>
+          <div className="flex items-center space-x-4">
+            <Github className="text-blue-400" />
+            <a
+              href="https://github.com/karthik-thokala"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline text-blue-300"
+            >
+              Karthik Thokala
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   );
 };
 
