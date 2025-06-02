@@ -48,7 +48,11 @@ const Project = () => {
   ];
 
   return (
-    <div id="projects"  className="px-6 py-[5%] bg-[rgb(23,29,50)]">
+   <div className="px-6 py-[5%] bg-gradient-to-tr from-[#1f2937] to-[#111827]">
+
+
+
+
       <h1 className="text-3xl font-bold text-center text-white mb-6">Projects</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">

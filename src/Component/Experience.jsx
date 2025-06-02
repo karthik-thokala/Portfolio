@@ -17,9 +17,11 @@ const Experience = () => {
             Software Engineering Virtual Internship | June 2024 - July 2024
           </p>
           <ul className="space-y-3 text-gray-700 list-disc pl-5">
-            <li className="text-lg">Developed live 5-second updates for real-time stock price feeds</li>
-            <li className="text-lg">Built a 10k+ LOC application using JPMorgan frameworks</li>
-            <li className="text-lg">Integrated Python and JS for a 40% faster processing time</li>
+            <li className="text-lg">Developed a real-time stock price tracker handling 10,000+ data points per second using Python and React.js.
+</li>
+            <li className="text-lg">Integrated Python and JavaScript to optimize data processing, achieving 40% faster performance.</li>
+            <li className="text-lg">Automated Git-based data validation, reducing manual errors by 40% and deployment time by 25%.</li>
+            <li className="text-lg"> Built a scalable 10,000+ LOC application leveraging JPMorgan frameworks and financial data APIs.</li>
           </ul>
         </div>
       </div>

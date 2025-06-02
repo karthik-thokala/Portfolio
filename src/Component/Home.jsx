@@ -8,7 +8,7 @@ const Home = () => {
     <section className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md relative">
       
       <h2 className="text-white text-xl md:text-4xl lg:text-4xl font-semibold mb-4 animate__animated animate__fadeIn">
-  Hi, I am
+   Hey, I’m
 </h2>
 
       
@@ -42,3 +42,6 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
