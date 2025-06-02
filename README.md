@@ -31,7 +31,7 @@
 
 This portfolio is deployed and live:
 
-🌐 **Live Site:** [https://portfolio-1oiu.vercel.app](https://portfolio-1oiu.vercel.app)  
+🌐 **Live Site:** [https://portfolio-1oiu.vercel.app](https://portfolio-1oiu-git-master-karthik-tinkus-projects.vercel.app/)  
 🚀 **Platform:** Vercel
 
 ---
